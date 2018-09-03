@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nothing replaces hard work">
-<meta property="og:url" content="http://bocheng0000.github.io/index.html">
+<meta name="description" content="ELA区块数据解析 区块是区块链的核心，区块中记录了区块高度、区块时间、挖矿难度、交易等重要信息。ELA是elastos系统的主链，采用UTXO模型，其区块由Header及Transaction两部分构成。  Table 1. The struct of the block FieldDescriptionHeader区块头，记录区块高度、时间、挖矿难度等Transaction记录区块内包含的交易">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ELA区块数据解析">
+<meta property="og:url" content="http://bocheng0000.github.io/2018/09/03/ELA区块数据解析/index.html">
 <meta property="og:site_name" content="Nothing replaces hard work">
+<meta property="og:description" content="ELA区块数据解析 区块是区块链的核心，区块中记录了区块高度、区块时间、挖矿难度、交易等重要信息。ELA是elastos系统的主链，采用UTXO模型，其区块由Header及Transaction两部分构成。  Table 1. The struct of the block FieldDescriptionHeader区块头，记录区块高度、时间、挖矿难度等Transaction记录区块内包含的交易">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-09-03T07:04:06.224Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nothing replaces hard work">
+<meta name="twitter:title" content="ELA区块数据解析">
+<meta name="twitter:description" content="ELA区块数据解析 区块是区块链的核心，区块中记录了区块高度、区块时间、挖矿难度、交易等重要信息。ELA是elastos系统的主链，采用UTXO模型，其区块由Header及Transaction两部分构成。  Table 1. The struct of the block FieldDescriptionHeader区块头，记录区块高度、时间、挖矿难度等Transaction记录区块内包含的交易">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://bocheng0000.github.io/"/>
+  <link rel="canonical" href="http://bocheng0000.github.io/2018/09/03/ELA区块数据解析/"/>
 
 
 
 
 
-  <title>Nothing replaces hard work</title>
+  <title>ELA区块数据解析 | Nothing replaces hard work</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/03/ELA区块数据解析/" itemprop="url">ELA区块数据解析</a></h1>
+          <h1 class="post-title" itemprop="name headline">ELA区块数据解析</h1>
         
 
         <div class="post-meta">
@@ -298,9 +299,7 @@
       
 
       
-        
-          
-            <h1 id="ELA区块数据解析"><a href="#ELA区块数据解析" class="headerlink" title="ELA区块数据解析"></a>ELA区块数据解析</h1><ul>
+        <h1 id="ELA区块数据解析"><a href="#ELA区块数据解析" class="headerlink" title="ELA区块数据解析"></a>ELA区块数据解析</h1><ul>
 <li>区块是区块链的核心，区块中记录了区块高度、区块时间、挖矿难度、交易等重要信息。<br>ELA是elastos系统的主链，采用UTXO模型，其区块由Header及Transaction两部分构成。</li>
 </ul>
 <p>Table 1. The struct of the block</p>
@@ -391,8 +390,6 @@
 <h3 id="Transaction-1"><a href="#Transaction-1" class="headerlink" title="Transaction #1"></a>Transaction #1</h3><table style="word-break:break-all; word-wrap:break-all;"><tr><th style="width:30%">Content</th><th style="width:70%">Description</th></tr><tr><td>05</td><td>Transaction Type, sideChainPow</td></tr><tr><td>00</td><td>Payload Version</td></tr><tr><td>8a06372d00884ceab956d2949a3c949514a6ab58ef682590aba4acf95d5adf21</td><td>SideBlockHash in payload</td></tr><tr><td>a3c455a90843db2acd22554f2768a8d4233fafbf8dd549e6b261c2786993be56</td><td>SideGenesisHash in payload</td></tr><tr><td>a52c0000</td><td>Side Block Height in payload，即00002ca5, 11429</td></tr><tr><td>40</td><td>Signed Data Length in payload, 即64 bytes</td></tr><tr><td>7fd52be245fcf60c0676e2b5f6f608b88170936d7a886c1a53251beb702727bee10cf161522a0203053118b2b143023c5b7f1b947430b7a9042995f6e9da2641</td><td>Signed Data in payload</td></tr><tr><td>01</td><td>Attribute Count</td></tr><tr><td>00</td><td>Usage</td></tr><tr><td>13</td><td>Data Length，19 bytes</td></tr><tr><td>32363433373636373531313337353631393734</td><td>Data</td></tr><tr><td>01</td><td>Input Count</td></tr><tr><td>0d6171aee79bafd03cedefee31d53d21e6a85a89fd361ca4a924add320a0b96c</td><td>Txid</td></tr><tr><td>0000</td><td>Index</td></tr><tr><td>00000000</td><td>Sequence</td></tr><tr><td>01</td><td>Output Count</td></tr><tr><td>b037db964a231458d2d6ffd5ea18944c4f90e63d547c5d3b9874df66a4ead0a3</td><td>AssetID</td></tr><tr><td>d0a1810200000000</td><td>Value</td></tr><tr><td>00000000</td><td>Output Lock</td></tr><tr><td>21deb095b783653f95b9ee96d32dad05ef3beccd1a</td><td>ProgramHash</td></tr><tr><td>15a40200</td><td>Locktime,逆序后转换为int，173077，表示锁定的区块高度</td></tr><tr><td>01</td><td>Program Count</td></tr><tr><td>41</td><td>Parameter Length, 即65 bytes</td></tr><tr><td>40a2e22b910dfba962c51332979afb0a473c6355cc800076da7450c6b634fdc1e82e395dc244f4f9e26b4b29196074583a895438b441f179c3c39ea22236e2462c</td><td>Parameter</td></tr><tr><td>23</td><td>Code Length, 即35</td></tr><tr><td>2103781c01eee6e338276b24d921873ae36dd4fa2725bf0694d6a1f838c7f6fee525ac</td><td>Code</td></tr></table>
 
 <h3 id="Transaction-2"><a href="#Transaction-2" class="headerlink" title="Transaction #2"></a>Transaction #2</h3><table style="word-break:break-all; word-wrap:break-all;"><tr><th style="width:30%">Content</th><th style="width:70%">Description</th></tr><tr><td>02</td><td>Transaction Type, TransferAsset</td></tr><tr><td>00</td><td>Payload Version，TransferAsset类型的交易，没有payload</td></tr><tr><td>01</td><td>Attribute Count</td></tr><tr><td>81</td><td>Usage</td></tr><tr><td>38</td><td>Data Length，即56 bytes</td></tr><tr><td>41495244524f503a45524332303a307833636142343737384634323038344535643543353437656164633365353536394538334430314336</td><td>Data</td></tr><tr><td>0e</td><td>Input Count,即14个UTXO</td></tr><tr><td>73af4e3d005b931ccdc4067f202072655ff0e239d9f89b6625a72c86c992c37c</td><td>Txid in UTXO#0</td></tr><tr><td>0000</td><td>Index in UTXO#0, 在前序交易中的Index为0</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#0</td></tr><tr><td>f4001a7ad559900520bab834abedad960960aff31cdf9371843c6cdc3a66f051</td><td>Txid in UTXO#1</td></tr><tr><td>0000</td><td>Index in UTXO#1, 在前序交易中的Index为0</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#1</td></tr><tr><td>a30217d92e7ccda462994d225bd145498aab3693273f0bc48f8267326ccf96be</td><td>Txid in UTXO#2</td></tr><tr><td>0000</td><td>Index in UTXO#2</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#2</td></tr><tr><td>3e9283f6ef90240d1b0211375f5017db48f481c5e2411a57b852f8ddcefe493a</td><td>Txid in UTXO#3</td></tr><tr><td>0000</td><td>Index in UTXO#3</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#3</td></tr><tr><td>badc8bf4bcc3b4a687e4417cabf4c28d334653bb240b8dda15a82bf3bebbf892</td><td>Txid in UTXO#4</td></tr><tr><td>0100</td><td>Index in UTXO#4</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#4</td></tr><tr><td>8788ee3234dafbd35145792d50c8c7bc7f85a0c181194585bdc88a457e8b6922</td><td>Txid in UTXO#5</td></tr><tr><td>0100</td><td>Index in UTXO#5</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#5</td></tr><tr><td>3cb285105cafed7ad0187cca6895cc00a8185714317fe22274c6cd6b5f078367</td><td>Txid in UTXO#6</td></tr><tr><td>0000</td><td>Index in UTXO#6</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#6</td></tr><tr><td>d700a0b9571a65977cb12de63d68b9ca144066a1c9f558f15d4b1d7ba986ddf0</td><td>Txid in UTXO#7</td></tr><tr><td>0000</td><td>Index in UTXO#7</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#7</td></tr><tr><td>f963ed0b428ed33cd773892a2a71fc1de62afb0394bcdef57ba7768850cbe8eb</td><td>Txid in UTXO#8</td></tr><tr><td>0000</td><td>Index in UTXO#8</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#X</td></tr><tr><td>1ba035da71d284e69177b67f4c077d05b73401f9a86b8ba547bc3a59ad06a0c9</td><td>Txid in UTXO#9</td></tr><tr><td>0100</td><td>Index in UTXO#9</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#9</td></tr><tr><td>5e7443888b28e93c67fc20cdde8741d7782a6e5404180528dc640cd050edf74c</td><td>Txid in UTXO#10</td></tr><tr><td>0000</td><td>Index in UTXO#10</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#10</td></tr><tr><td>68e14a1425c5a368f72ee9fa52df0729fddb0337666a65345df8f804b3ad5781</td><td>Txid in UTXO#11</td></tr><tr><td>0000</td><td>Index in UTXO#11</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#11</td></tr><tr><td>18771d2ed7f546fe7c2229b0a27648cc19adb82fddf01dd1732f308321dbfae6</td><td>Txid in UTXO#12</td></tr><tr><td>0000</td><td>Index in UTXO#12</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#12</td></tr><tr><td>7a821b4fffc4ee9201980342babff3644ccad8917b3f91e7268f5da79ffd7188</td><td>Txid in UTXO#13</td></tr><tr><td>0100</td><td>Index in UTXO#13</td></tr><tr><td>ffffffff</td><td>Sequence in UTXO#13</td></tr><tr><td>02</td><td>Output Count</td></tr><tr><td>b037db964a231458d2d6ffd5ea18944c4f90e63d547c5d3b9874df66a4ead0a3</td><td>AssetID in output#0</td></tr><tr><td>5096a7d415000000</td><td>Value in output#0, 即int(00000015d4a79650,16)=93762066000</td></tr><tr><td>00000000</td><td>Output Lock in output#0</td></tr><tr><td>2145cf7be2fd0d56d4c82cffb5f3e5446156d27fe0</td><td>ProgramHash in output#0, 可以转换为Address “EPX2g4FW91PsVcebDZhRD51SxJLBMvoSG3”</td></tr><tr><td>b037db964a231458d2d6ffd5ea18944c4f90e63d547c5d3b9874df66a4ead0a3</td><td>AssetID in output#1</td></tr><tr><td>38ee970000000000</td><td>Value in output#1, 即int(000000000097ee38,16)=9956920</td></tr><tr><td>00000000</td><td>Output Lock in output#1</td></tr><tr><td>217640264e2f894e0b9a2fc48437c8250ed8ad9031</td><td>ProgramHash in output#1, 可以转换为Address “ETwA5R1AinTsFeFKF9pJkXCyBB5fHdWvBJ”</td></tr><tr><td>00000000</td><td>Locktime</td></tr><tr><td>02</td><td>Program Count, 交易花费了2个地址的UTXO，所以只有2个解锁脚本及锁定脚本</td></tr><tr><td>41</td><td>Parameter Length in program#0, 即65 bytes</td></tr><tr><td>40f66db057c3b43138e162a89710699657921729f59ddce922e53349f9b7aea335088ecae4ba13bab98e495d24c407ec03e4b0c72b93d8cf86cc6926de1e4cfdfe</td><td>Parameter in program#0</td></tr><tr><td>23</td><td>Code Length in program#0, 即35 bytes</td></tr><tr><td>2102ccc5203bbc6253acec5957a5ba1a586c2dbd7e95d6e02e2c4613e096858b18b4ac</td><td>Code in program#0</td></tr><tr><td>41</td><td>Parameter Length in program#1, 即65 bytes</td></tr><tr><td>4004dd98e7910d99e2c55cef823a56d482e57b0f7933d72895d6c19765133d826303532bc35c789f9e55b3f7b92319860a4c11ad67bea8dd26e0331b4c455135dd</td><td>Parameter in program#1</td></tr><tr><td>23</td><td>Code Length in program#1, 即35 bytes</td></tr><tr><td>2103638466dc93e171d407318a55b13b83805424d16985a9eea55f0eeae68bf2364cac</td><td>Code in program#1</td></tr></table>
-          
-        
       
     </div>
     
@@ -409,12 +406,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -424,10 +421,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -435,6 +433,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -455,8 +457,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -502,6 +513,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ELA区块数据解析"><span class="nav-number">1.</span> <span class="nav-text">ELA区块数据解析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Header"><span class="nav-number">1.1.</span> <span class="nav-text">Header</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#AuxPOW"><span class="nav-number">1.1.1.</span> <span class="nav-text">AuxPOW</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Transaction"><span class="nav-number">1.2.</span> <span class="nav-text">Transaction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Transaction-Type"><span class="nav-number">1.2.1.</span> <span class="nav-text">Transaction Type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Attribute"><span class="nav-number">1.2.2.</span> <span class="nav-text">Attribute</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Input"><span class="nav-number">1.2.3.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output"><span class="nav-number">1.2.4.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Program"><span class="nav-number">1.2.5.</span> <span class="nav-text">Program</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Block-Header"><span class="nav-number">1.3.</span> <span class="nav-text">Block Header</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#AuxPow"><span class="nav-number">1.3.1.</span> <span class="nav-text">AuxPow</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#ParCoinBaseTx-BTC的CoinBase"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">ParCoinBaseTx, BTC的CoinBase</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ParentHash"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">ParentHash</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ParCoinBaseMerkle"><span class="nav-number">1.3.1.3.</span> <span class="nav-text">ParCoinBaseMerkle[]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Parent-Merkle-Index"><span class="nav-number">1.3.1.4.</span> <span class="nav-text">Parent Merkle Index</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Aux-Merkle-Branch"><span class="nav-number">1.3.1.5.</span> <span class="nav-text">Aux Merkle Branch[]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#AuxMerkleIndex"><span class="nav-number">1.3.1.6.</span> <span class="nav-text">AuxMerkleIndex</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ParBlockHeader-BTC的区块头"><span class="nav-number">1.3.1.7.</span> <span class="nav-text">ParBlockHeader, BTC的区块头</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Block-Header与Transaction的分隔标记"><span class="nav-number">1.3.2.</span> <span class="nav-text">Block Header与Transaction的分隔标记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Transactions"><span class="nav-number">1.3.3.</span> <span class="nav-text">Transactions</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Transaction-0"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">Transaction #0</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Transaction-1"><span class="nav-number">1.3.4.</span> <span class="nav-text">Transaction #1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Transaction-2"><span class="nav-number">1.3.5.</span> <span class="nav-text">Transaction #2</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -642,6 +669,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
